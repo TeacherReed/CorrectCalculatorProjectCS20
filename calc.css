@@ -1,0 +1,189 @@
+
+#calcHolder {
+  display: flex;
+  flex-direction: row;
+  margin: 100px 0px 100px 0px;
+}
+
+#whiteSpaceL, #whiteSpaceR{
+  flex-grow: 3;
+}
+
+#calculator {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: auto 20px 40px 40px 40px 40px 20px auto;
+  grid-template-rows: auto 20px 40px 40px 40px 40px 40px 40px 20px auto;
+}
+
+#calculator div p {
+  text-align: center;
+}
+
+#calculator div{
+  border: solid 2px black;
+}
+
+#calculator div:hover{
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+#outline {
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 10;
+  background-color: aliceblue;
+}
+#screen {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: lightgrey;
+}
+
+#one {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  background-color: cornflowerblue;
+}
+
+#two {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  background-color: cornflowerblue;
+}
+
+#three {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  background-color: cornflowerblue;
+}
+
+#four {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  background-color: cornflowerblue;
+}
+
+#five {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  background-color: cornflowerblue;
+}
+
+#six {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  background-color: cornflowerblue;
+}
+
+#seven {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  background-color: cornflowerblue;
+}
+
+#eight {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  background-color: cornflowerblue;
+}
+
+#nine {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  background-color: cornflowerblue;
+}
+
+#decimal{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  background-color: cornflowerblue;
+}
+
+#zero {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  background-color: cornflowerblue;
+}
+
+#equals {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  background-color: cornflowerblue;
+}
+
+#add {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  background-color: cornflowerblue;
+}
+
+#subtract {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  background-color: cornflowerblue;
+}
+
+#divide {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  background-color: cornflowerblue;
+}
+
+#multiply {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  background-color: cornflowerblue;
+}
+
+#clear {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: cornflowerblue;
+}
+
+#sqrt {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: cornflowerblue;
+}
